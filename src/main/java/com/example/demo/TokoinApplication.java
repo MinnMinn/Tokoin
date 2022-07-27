@@ -53,7 +53,7 @@ public class TokoinApplication {
             System.out.println("3. Search Organization");
             System.out.println("4. Exit !!!");
             System.out.println("Please choose object search:");
-            int inputSearch = x.nextInt();
+            int inputSearch = x.nextInt(); 
             switch (inputSearch){ 
                 case 1:
                     int inputUser = chooseTypeInput(x);
