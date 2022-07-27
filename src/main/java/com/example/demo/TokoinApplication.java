@@ -46,7 +46,7 @@ public class TokoinApplication {
             User[] users = gson.fromJson(readerUser, User[].class); 
             Ticket[] tickets = gson.fromJson(readerTicket, Ticket[].class);
             Organization[] organizations = gson.fromJson(readerOrganization, Organization[].class);
-
+ 
             Scanner x = new Scanner(System.in);
             System.out.println("1. Search User");
             System.out.println("2. Search Ticket");
