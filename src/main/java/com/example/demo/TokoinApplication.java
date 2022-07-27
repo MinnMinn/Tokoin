@@ -43,7 +43,7 @@ public class TokoinApplication {
         )
         {
             Gson gson = new Gson();
-            User[] users = gson.fromJson(readerUser, User[].class);
+            User[] users = gson.fromJson(readerUser, User[].class); 
             Ticket[] tickets = gson.fromJson(readerTicket, Ticket[].class);
             Organization[] organizations = gson.fromJson(readerOrganization, Organization[].class);
 
